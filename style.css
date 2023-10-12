@@ -28,7 +28,7 @@ body {
     }
 }
 
-.card {
+.card1 {
     background: #faebd7d0;
     color: #000000d0;
     padding: 2em;
@@ -48,7 +48,7 @@ body {
 }
 
 @media only screen and (min-width: 300px) {
-  .card,
+  .card1,
   .card2 {
     width: 75%;
   }
@@ -172,7 +172,7 @@ label:active:after {
 
 
 
-.darkmodeToggle:checked+label+.card {
+.darkmodeToggle:checked+label+.card1 {
     background: #000000;
 
 }

@@ -47,6 +47,13 @@ body {
     transition: 0.4s;*/
 }
 
+@media only screen and (min-width: 300px) {
+  .card,
+  .card2 {
+    width: 75%;
+  }
+}
+
 .search {
     display: flexbox;
     align-items: center;

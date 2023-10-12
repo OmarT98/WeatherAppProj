@@ -70,18 +70,18 @@ document
 //weather.fetchWeather("Cairo");   
 
 document
-    .querySelector(".card")
+    .querySelector(".card1")
     .addEventListener("click", function () {
         weather.search();
     });
 
 
 function darkMode() {
-    var element = document.querySelector(".card");
-    element.classList.toggle("card");
+    var element = document.querySelector(".card1");
+    element.classList.toggle("card1");
 }
 
 function darkMode() {
     var element = document.querySelector(".card2");
-    element.classList.toggle("card");
+    element.classList.toggle("card1");
 }
